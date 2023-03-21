@@ -60,7 +60,7 @@
     "cli-truncate": "^2.1.0",
     "dotenv": "^10.0.0",
     "execa": "^5.0.0",
-    "find-up": "5.0.0",
+    "find-up": "6.3.0",
     "global-dirs": "^3.0.0",
     "globby": "^11.0.0",
     "has-yarn": "^2.1.0",
