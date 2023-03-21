@@ -54,7 +54,7 @@
   "dependencies": {
     "@prisma/debug": "workspace:*",
     "@prisma/get-platform": "workspace:*",
-    "@sindresorhus/slugify": "^1.1.0",
+    "@sindresorhus/slugify": "^2.0.0",
     "execa": "^5.0.0",
     "global-dirs": "^3.0.0",
     "has-yarn": "^2.1.0",
