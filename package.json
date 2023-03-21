@@ -20,7 +20,7 @@
     "eslint-plugin-eslint-comments": "3.2.0",
     "eslint-plugin-jest": "24.3.6",
     "eslint-plugin-prettier": "3.4.0",
-    "execa": "5.1.1",
+    "execa": "7.1.1",
     "globby": "11.0.4",
     "husky": "4.3.8",
     "p-map": "4.0.0",
