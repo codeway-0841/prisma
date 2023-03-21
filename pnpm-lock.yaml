@@ -12,7 +12,7 @@ specifiers:
   eslint-config-prettier: 8.3.0
   eslint-plugin-eslint-comments: 3.2.0
   eslint-plugin-jest: 24.3.6
-  eslint-plugin-prettier: 3.4.0
+  eslint-plugin-prettier: 4.2.1
   execa: 5.1.1
   globby: 11.0.4
   husky: 4.3.8
@@ -34,7 +34,7 @@ devDependencies:
   eslint-config-prettier: 8.3.0_eslint@7.29.0
   eslint-plugin-eslint-comments: 3.2.0_eslint@7.29.0
   eslint-plugin-jest: 24.3.6_c2d2ebe88994b8faf8d0e772eddf3b2d
-  eslint-plugin-prettier: 3.4.0_de2986b0c29d2faa795004f5443c76d1
+  eslint-plugin-prettier: 4.2.1_de2986b0c29d2faa795004f5443c76d1
   execa: 5.1.1
   globby: 11.0.4
   husky: 4.3.8
@@ -615,13 +615,13 @@ packages:
       - typescript
     dev: true
 
-  /eslint-plugin-prettier/3.4.0_de2986b0c29d2faa795004f5443c76d1:
-    resolution: {integrity: sha512-UDK6rJT6INSfcOo545jiaOwB701uAIt2/dR7WnFQoGCVl1/EMqdANBmwUaqqQ45aXprsTGzSa39LI1PyuRBxxw==}
-    engines: {node: '>=6.0.0'}
+  /eslint-plugin-prettier/4.2.1_de2986b0c29d2faa795004f5443c76d1:
+    resolution: {integrity: sha512-f/0rXLXUt0oFYs8ra4w49wYZBG5GKZpAYsJSm6rnYL5uVDjd+zowwMwVZHnAjf4edNrKpCDYfXDgmRE/Ak7QyQ==}
+    engines: {node: '>=12.0.0'}
     peerDependencies:
-      eslint: '>=5.0.0'
+      eslint: '>=7.28.0'
       eslint-config-prettier: '*'
-      prettier: '>=1.13.0'
+      prettier: '>=2.0.0'
     peerDependenciesMeta:
       eslint-config-prettier:
         optional: true
