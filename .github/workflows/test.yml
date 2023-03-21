@@ -52,7 +52,7 @@ jobs:
       jobs: ${{ steps.detect.outputs.jobs }}
     steps:
       - id: checkout
-        uses: actions/checkout@v2        
+        uses: actions/checkout@v3        
       - id: files
         uses: Ana06/get-changed-files@v1.2 # it's a fork of jitterbit/get-changed-files@v1 which works better with pull requests
         with:
@@ -81,7 +81,7 @@ jobs:
     if: "!contains(github.actor, 'renovate')"
     
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
 
       - name: Cache .pnpm-store # From https://pnpm.io/continuous-integration
         uses: actions/cache@v1
@@ -121,7 +121,7 @@ jobs:
         node: [12]
 
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
 
       - name: Set Engine Type
         if: ${{ matrix.engine == 'napi' }}
@@ -181,7 +181,7 @@ jobs:
         node: [12]
 
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
 
       - name: Cache .pnpm-store # From https://pnpm.io/continuous-integration
         uses: actions/cache@v1
@@ -235,7 +235,7 @@ jobs:
         node: [12]
 
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
 
       - name: Set Engine Type
         if: ${{ matrix.engine == 'napi' }}
@@ -307,7 +307,7 @@ jobs:
         node: [12]
 
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
       
       - name: Set Engine Type
         if: ${{ matrix.engine == 'napi' }}
@@ -361,7 +361,7 @@ jobs:
         node: [12]
 
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
 
       - run: docker-compose -f src/docker/docker-compose.yml up --detach postgres mysql mssql
       
@@ -429,7 +429,7 @@ jobs:
         node: [12]
 
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
       
       - name: Set Engine Type
         if: ${{ matrix.engine == 'napi' }}
@@ -482,7 +482,7 @@ jobs:
         node: [12]
 
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
 
       - name: Cache .pnpm-store # From https://pnpm.io/continuous-integration
         uses: actions/cache@v1
