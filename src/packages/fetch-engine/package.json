@@ -38,7 +38,7 @@
   "dependencies": {
     "@prisma/debug": "workspace:*",
     "@prisma/get-platform": "workspace:*",
-    "chalk": "^4.0.0",
+    "chalk": "^5.0.0",
     "execa": "^5.0.0",
     "find-cache-dir": "^3.3.1",
     "hasha": "^5.2.0",

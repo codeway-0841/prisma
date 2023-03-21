@@ -74,7 +74,7 @@
     "@types/ws": "7.4.5",
     "@typescript-eslint/eslint-plugin": "4.27.0",
     "@typescript-eslint/parser": "4.27.0",
-    "chalk": "4.1.1",
+    "chalk": "5.2.0",
     "checkpoint-client": "1.1.20",
     "dotenv": "10.0.0",
     "esbuild": "0.8.53",

@@ -44,7 +44,7 @@
     "@prisma/engines": "2.26.0-6.70b89abdd1feb39892ef3c2acd3be5383a73a002",
     "@prisma/generator-helper": "workspace:*",
     "@prisma/get-platform": "workspace:*",
-    "chalk": "^4.0.0",
+    "chalk": "^5.0.0",
     "execa": "^5.0.0",
     "get-stream": "^6.0.0",
     "indent-string": "^4.0.0",
